@@ -1,0 +1,6 @@
+{
+  "name": "Sweety - Blood Glucose Tracker",
+  "description": "Smart diabetes management application to record blood glucose readings, enforce slot validations, view daily & monthly reports, and track glycemic trends.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

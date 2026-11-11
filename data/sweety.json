@@ -1,0 +1,2222 @@
+{
+  "users": [
+    {
+      "id": "demo-patient-001",
+      "name": "Bolla (Demo Patient)",
+      "email": "demo@kenpath.com",
+      "passwordHash": "$2b$10$vayiEj1zpjkjTFlEX42XHuXRB8jVvwa4IAwGuveBmRhYXutgdx3h6",
+      "role": "patient",
+      "createdAt": "2026-11-11T01:54:55.065Z"
+    },
+    {
+      "id": "demo-doctor-001",
+      "name": "Dr. Kenpath Endocrinologist",
+      "email": "doctor@kenpath.com",
+      "passwordHash": "$2b$10$vayiEj1zpjkjTFlEX42XHuXRB8jVvwa4IAwGuveBmRhYXutgdx3h6",
+      "role": "doctor",
+      "createdAt": "2026-11-11T01:54:55.066Z"
+    }
+  ],
+  "readings": [
+    {
+      "id": "reading-2026-09-01-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-01",
+      "timeSlot": "Morning (fasting)",
+      "value": 121,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-01T12:00:00.000Z",
+      "updatedAt": "2026-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-01-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-01",
+      "timeSlot": "After breakfast",
+      "value": 159,
+      "createdAt": "2026-09-01T12:00:00.000Z",
+      "updatedAt": "2026-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-01-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-01",
+      "timeSlot": "After lunch",
+      "value": 145,
+      "notes": "After lunch",
+      "createdAt": "2026-09-01T12:00:00.000Z",
+      "updatedAt": "2026-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-01-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-01",
+      "timeSlot": "After dinner",
+      "value": 140,
+      "createdAt": "2026-09-01T12:00:00.000Z",
+      "updatedAt": "2026-09-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-02-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-02",
+      "timeSlot": "Morning (fasting)",
+      "value": 98,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-02T12:00:00.000Z",
+      "updatedAt": "2026-09-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-02-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-02",
+      "timeSlot": "After breakfast",
+      "value": 161,
+      "createdAt": "2026-09-02T12:00:00.000Z",
+      "updatedAt": "2026-09-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-02-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-02",
+      "timeSlot": "After lunch",
+      "value": 194,
+      "notes": "After lunch",
+      "createdAt": "2026-09-02T12:00:00.000Z",
+      "updatedAt": "2026-09-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-02-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-02",
+      "timeSlot": "After dinner",
+      "value": 182,
+      "createdAt": "2026-09-02T12:00:00.000Z",
+      "updatedAt": "2026-09-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-03-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-03",
+      "timeSlot": "Morning (fasting)",
+      "value": 127,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-03T12:00:00.000Z",
+      "updatedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-03-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-03",
+      "timeSlot": "After breakfast",
+      "value": 187,
+      "createdAt": "2026-09-03T12:00:00.000Z",
+      "updatedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-03-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-03",
+      "timeSlot": "After lunch",
+      "value": 172,
+      "notes": "After lunch",
+      "createdAt": "2026-09-03T12:00:00.000Z",
+      "updatedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-03-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-03",
+      "timeSlot": "After dinner",
+      "value": 136,
+      "createdAt": "2026-09-03T12:00:00.000Z",
+      "updatedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-04-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-04",
+      "timeSlot": "Morning (fasting)",
+      "value": 104,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-04-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-04",
+      "timeSlot": "After breakfast",
+      "value": 143,
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-04-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-04",
+      "timeSlot": "After lunch",
+      "value": 158,
+      "notes": "After lunch",
+      "createdAt": "2026-09-04T12:00:00.000Z",
+      "updatedAt": "2026-09-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-05-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-05",
+      "timeSlot": "Morning (fasting)",
+      "value": 112,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-05T12:00:00.000Z",
+      "updatedAt": "2026-09-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-05-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-05",
+      "timeSlot": "After breakfast",
+      "value": 188,
+      "createdAt": "2026-09-05T12:00:00.000Z",
+      "updatedAt": "2026-09-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-05-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-05",
+      "timeSlot": "After lunch",
+      "value": 203,
+      "notes": "After lunch",
+      "createdAt": "2026-09-05T12:00:00.000Z",
+      "updatedAt": "2026-09-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-05-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-05",
+      "timeSlot": "After dinner",
+      "value": 163,
+      "createdAt": "2026-09-05T12:00:00.000Z",
+      "updatedAt": "2026-09-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-06-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-06",
+      "timeSlot": "Morning (fasting)",
+      "value": 122,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-06T12:00:00.000Z",
+      "updatedAt": "2026-09-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-06-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-06",
+      "timeSlot": "After breakfast",
+      "value": 160,
+      "createdAt": "2026-09-06T12:00:00.000Z",
+      "updatedAt": "2026-09-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-06-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-06",
+      "timeSlot": "After lunch",
+      "value": 146,
+      "notes": "After lunch",
+      "createdAt": "2026-09-06T12:00:00.000Z",
+      "updatedAt": "2026-09-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-06-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-06",
+      "timeSlot": "After dinner",
+      "value": 139,
+      "createdAt": "2026-09-06T12:00:00.000Z",
+      "updatedAt": "2026-09-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-07-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-07",
+      "timeSlot": "Morning (fasting)",
+      "value": 98,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-07T12:00:00.000Z",
+      "updatedAt": "2026-09-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-07-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-07",
+      "timeSlot": "After breakfast",
+      "value": 159,
+      "createdAt": "2026-09-07T12:00:00.000Z",
+      "updatedAt": "2026-09-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-07-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-07",
+      "timeSlot": "After lunch",
+      "value": 193,
+      "notes": "After lunch",
+      "createdAt": "2026-09-07T12:00:00.000Z",
+      "updatedAt": "2026-09-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-07-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-07",
+      "timeSlot": "After dinner",
+      "value": 182,
+      "createdAt": "2026-09-07T12:00:00.000Z",
+      "updatedAt": "2026-09-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-08-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-08",
+      "timeSlot": "Morning (fasting)",
+      "value": 126,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-08T12:00:00.000Z",
+      "updatedAt": "2026-09-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-08-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-08",
+      "timeSlot": "After breakfast",
+      "value": 188,
+      "createdAt": "2026-09-08T12:00:00.000Z",
+      "updatedAt": "2026-09-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-08-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-08",
+      "timeSlot": "After lunch",
+      "value": 174,
+      "notes": "After lunch",
+      "createdAt": "2026-09-08T12:00:00.000Z",
+      "updatedAt": "2026-09-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-09-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-09",
+      "timeSlot": "Morning (fasting)",
+      "value": 105,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-09T12:00:00.000Z",
+      "updatedAt": "2026-09-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-09-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-09",
+      "timeSlot": "After breakfast",
+      "value": 143,
+      "createdAt": "2026-09-09T12:00:00.000Z",
+      "updatedAt": "2026-09-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-09-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-09",
+      "timeSlot": "After lunch",
+      "value": 157,
+      "notes": "After lunch",
+      "createdAt": "2026-09-09T12:00:00.000Z",
+      "updatedAt": "2026-09-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-09-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-09",
+      "timeSlot": "After dinner",
+      "value": 166,
+      "createdAt": "2026-09-09T12:00:00.000Z",
+      "updatedAt": "2026-09-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-10-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-10",
+      "timeSlot": "Morning (fasting)",
+      "value": 111,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-10T12:00:00.000Z",
+      "updatedAt": "2026-09-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-10-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-10",
+      "timeSlot": "After breakfast",
+      "value": 187,
+      "createdAt": "2026-09-10T12:00:00.000Z",
+      "updatedAt": "2026-09-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-10-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-10",
+      "timeSlot": "After lunch",
+      "value": 203,
+      "notes": "After lunch",
+      "createdAt": "2026-09-10T12:00:00.000Z",
+      "updatedAt": "2026-09-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-10-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-10",
+      "timeSlot": "After dinner",
+      "value": 164,
+      "createdAt": "2026-09-10T12:00:00.000Z",
+      "updatedAt": "2026-09-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-11-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-11",
+      "timeSlot": "Morning (fasting)",
+      "value": 123,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-11T12:00:00.000Z",
+      "updatedAt": "2026-09-11T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-11-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-11",
+      "timeSlot": "After breakfast",
+      "value": 162,
+      "createdAt": "2026-09-11T12:00:00.000Z",
+      "updatedAt": "2026-09-11T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-11-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-11",
+      "timeSlot": "After lunch",
+      "value": 146,
+      "notes": "After lunch",
+      "createdAt": "2026-09-11T12:00:00.000Z",
+      "updatedAt": "2026-09-11T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-11-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-11",
+      "timeSlot": "After dinner",
+      "value": 138,
+      "createdAt": "2026-09-11T12:00:00.000Z",
+      "updatedAt": "2026-09-11T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-12-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-12",
+      "timeSlot": "Morning (fasting)",
+      "value": 98,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-12T12:00:00.000Z",
+      "updatedAt": "2026-09-12T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-12-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-12",
+      "timeSlot": "After breakfast",
+      "value": 157,
+      "createdAt": "2026-09-12T12:00:00.000Z",
+      "updatedAt": "2026-09-12T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-12-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-12",
+      "timeSlot": "After lunch",
+      "value": 191,
+      "notes": "After lunch",
+      "createdAt": "2026-09-12T12:00:00.000Z",
+      "updatedAt": "2026-09-12T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-13-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-13",
+      "timeSlot": "Morning (fasting)",
+      "value": 126,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-13T12:00:00.000Z",
+      "updatedAt": "2026-09-13T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-13-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-13",
+      "timeSlot": "After breakfast",
+      "value": 189,
+      "createdAt": "2026-09-13T12:00:00.000Z",
+      "updatedAt": "2026-09-13T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-13-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-13",
+      "timeSlot": "After lunch",
+      "value": 176,
+      "notes": "After lunch",
+      "createdAt": "2026-09-13T12:00:00.000Z",
+      "updatedAt": "2026-09-13T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-13-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-13",
+      "timeSlot": "After dinner",
+      "value": 137,
+      "createdAt": "2026-09-13T12:00:00.000Z",
+      "updatedAt": "2026-09-13T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-14-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-14",
+      "timeSlot": "Morning (fasting)",
+      "value": 106,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-14T12:00:00.000Z",
+      "updatedAt": "2026-09-14T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-14-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-14",
+      "timeSlot": "After breakfast",
+      "value": 143,
+      "createdAt": "2026-09-14T12:00:00.000Z",
+      "updatedAt": "2026-09-14T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-14-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-14",
+      "timeSlot": "After lunch",
+      "value": 155,
+      "notes": "After lunch",
+      "createdAt": "2026-09-14T12:00:00.000Z",
+      "updatedAt": "2026-09-14T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-14-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-14",
+      "timeSlot": "After dinner",
+      "value": 165,
+      "createdAt": "2026-09-14T12:00:00.000Z",
+      "updatedAt": "2026-09-14T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-15-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-15",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-15T12:00:00.000Z",
+      "updatedAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-15-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-15",
+      "timeSlot": "After breakfast",
+      "value": 185,
+      "createdAt": "2026-09-15T12:00:00.000Z",
+      "updatedAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-15-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-15",
+      "timeSlot": "After lunch",
+      "value": 204,
+      "notes": "After lunch",
+      "createdAt": "2026-09-15T12:00:00.000Z",
+      "updatedAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-15-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-15",
+      "timeSlot": "After dinner",
+      "value": 166,
+      "createdAt": "2026-09-15T12:00:00.000Z",
+      "updatedAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-16-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-16",
+      "timeSlot": "Morning (fasting)",
+      "value": 124,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-16T12:00:00.000Z",
+      "updatedAt": "2026-09-16T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-16-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-16",
+      "timeSlot": "After breakfast",
+      "value": 164,
+      "createdAt": "2026-09-16T12:00:00.000Z",
+      "updatedAt": "2026-09-16T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-16-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-16",
+      "timeSlot": "After lunch",
+      "value": 147,
+      "notes": "After lunch",
+      "createdAt": "2026-09-16T12:00:00.000Z",
+      "updatedAt": "2026-09-16T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-17-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-17",
+      "timeSlot": "Morning (fasting)",
+      "value": 98,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-17T12:00:00.000Z",
+      "updatedAt": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-17-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-17",
+      "timeSlot": "After breakfast",
+      "value": 156,
+      "createdAt": "2026-09-17T12:00:00.000Z",
+      "updatedAt": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-17-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-17",
+      "timeSlot": "After lunch",
+      "value": 189,
+      "notes": "After lunch",
+      "createdAt": "2026-09-17T12:00:00.000Z",
+      "updatedAt": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-17-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-17",
+      "timeSlot": "After dinner",
+      "value": 182,
+      "createdAt": "2026-09-17T12:00:00.000Z",
+      "updatedAt": "2026-09-17T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-18-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-18",
+      "timeSlot": "Morning (fasting)",
+      "value": 125,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-18T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-18-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-18",
+      "timeSlot": "After breakfast",
+      "value": 190,
+      "createdAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-18T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-18-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-18",
+      "timeSlot": "After lunch",
+      "value": 178,
+      "notes": "After lunch",
+      "createdAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-18T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-18-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-18",
+      "timeSlot": "After dinner",
+      "value": 138,
+      "createdAt": "2026-09-18T12:00:00.000Z",
+      "updatedAt": "2026-09-18T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-19-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-19",
+      "timeSlot": "Morning (fasting)",
+      "value": 107,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-19T12:00:00.000Z",
+      "updatedAt": "2026-09-19T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-19-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-19",
+      "timeSlot": "After breakfast",
+      "value": 143,
+      "createdAt": "2026-09-19T12:00:00.000Z",
+      "updatedAt": "2026-09-19T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-19-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-19",
+      "timeSlot": "After lunch",
+      "value": 154,
+      "notes": "After lunch",
+      "createdAt": "2026-09-19T12:00:00.000Z",
+      "updatedAt": "2026-09-19T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-19-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-19",
+      "timeSlot": "After dinner",
+      "value": 163,
+      "createdAt": "2026-09-19T12:00:00.000Z",
+      "updatedAt": "2026-09-19T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-20-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-20",
+      "timeSlot": "Morning (fasting)",
+      "value": 109,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-20T12:00:00.000Z",
+      "updatedAt": "2026-09-20T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-20-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-20",
+      "timeSlot": "After breakfast",
+      "value": 184,
+      "createdAt": "2026-09-20T12:00:00.000Z",
+      "updatedAt": "2026-09-20T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-20-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-20",
+      "timeSlot": "After lunch",
+      "value": 204,
+      "notes": "After lunch",
+      "createdAt": "2026-09-20T12:00:00.000Z",
+      "updatedAt": "2026-09-20T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-21-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-21",
+      "timeSlot": "Morning (fasting)",
+      "value": 124,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-21T12:00:00.000Z",
+      "updatedAt": "2026-09-21T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-21-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-21",
+      "timeSlot": "After breakfast",
+      "value": 165,
+      "createdAt": "2026-09-21T12:00:00.000Z",
+      "updatedAt": "2026-09-21T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-21-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-21",
+      "timeSlot": "After lunch",
+      "value": 148,
+      "notes": "After lunch",
+      "createdAt": "2026-09-21T12:00:00.000Z",
+      "updatedAt": "2026-09-21T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-21-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-21",
+      "timeSlot": "After dinner",
+      "value": 136,
+      "createdAt": "2026-09-21T12:00:00.000Z",
+      "updatedAt": "2026-09-21T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-22-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-22",
+      "timeSlot": "Morning (fasting)",
+      "value": 98,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-22T12:00:00.000Z",
+      "updatedAt": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-22-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-22",
+      "timeSlot": "After breakfast",
+      "value": 154,
+      "createdAt": "2026-09-22T12:00:00.000Z",
+      "updatedAt": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-22-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-22",
+      "timeSlot": "After lunch",
+      "value": 188,
+      "notes": "After lunch",
+      "createdAt": "2026-09-22T12:00:00.000Z",
+      "updatedAt": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-22-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-22",
+      "timeSlot": "After dinner",
+      "value": 182,
+      "createdAt": "2026-09-22T12:00:00.000Z",
+      "updatedAt": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-23-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-23",
+      "timeSlot": "Morning (fasting)",
+      "value": 125,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-23T12:00:00.000Z",
+      "updatedAt": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-23-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-23",
+      "timeSlot": "After breakfast",
+      "value": 191,
+      "createdAt": "2026-09-23T12:00:00.000Z",
+      "updatedAt": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-23-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-23",
+      "timeSlot": "After lunch",
+      "value": 180,
+      "notes": "After lunch",
+      "createdAt": "2026-09-23T12:00:00.000Z",
+      "updatedAt": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-23-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-23",
+      "timeSlot": "After dinner",
+      "value": 139,
+      "createdAt": "2026-09-23T12:00:00.000Z",
+      "updatedAt": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-24-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-24",
+      "timeSlot": "Morning (fasting)",
+      "value": 108,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-24T12:00:00.000Z",
+      "updatedAt": "2026-09-24T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-24-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-24",
+      "timeSlot": "After breakfast",
+      "value": 143,
+      "createdAt": "2026-09-24T12:00:00.000Z",
+      "updatedAt": "2026-09-24T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-24-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-24",
+      "timeSlot": "After lunch",
+      "value": 152,
+      "notes": "After lunch",
+      "createdAt": "2026-09-24T12:00:00.000Z",
+      "updatedAt": "2026-09-24T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-25-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-25",
+      "timeSlot": "Morning (fasting)",
+      "value": 108,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-25T12:00:00.000Z",
+      "updatedAt": "2026-09-25T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-25-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-25",
+      "timeSlot": "After breakfast",
+      "value": 183,
+      "createdAt": "2026-09-25T12:00:00.000Z",
+      "updatedAt": "2026-09-25T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-25-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-25",
+      "timeSlot": "After lunch",
+      "value": 204,
+      "notes": "After lunch",
+      "createdAt": "2026-09-25T12:00:00.000Z",
+      "updatedAt": "2026-09-25T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-25-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-25",
+      "timeSlot": "After dinner",
+      "value": 169,
+      "createdAt": "2026-09-25T12:00:00.000Z",
+      "updatedAt": "2026-09-25T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-26-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-26",
+      "timeSlot": "Morning (fasting)",
+      "value": 125,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-26T12:00:00.000Z",
+      "updatedAt": "2026-09-26T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-26-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-26",
+      "timeSlot": "After breakfast",
+      "value": 167,
+      "createdAt": "2026-09-26T12:00:00.000Z",
+      "updatedAt": "2026-09-26T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-26-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-26",
+      "timeSlot": "After lunch",
+      "value": 149,
+      "notes": "After lunch",
+      "createdAt": "2026-09-26T12:00:00.000Z",
+      "updatedAt": "2026-09-26T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-26-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-26",
+      "timeSlot": "After dinner",
+      "value": 135,
+      "createdAt": "2026-09-26T12:00:00.000Z",
+      "updatedAt": "2026-09-26T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-27-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-27",
+      "timeSlot": "Morning (fasting)",
+      "value": 98,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-27T12:00:00.000Z",
+      "updatedAt": "2026-09-27T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-27-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-27",
+      "timeSlot": "After breakfast",
+      "value": 153,
+      "createdAt": "2026-09-27T12:00:00.000Z",
+      "updatedAt": "2026-09-27T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-27-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-27",
+      "timeSlot": "After lunch",
+      "value": 186,
+      "notes": "After lunch",
+      "createdAt": "2026-09-27T12:00:00.000Z",
+      "updatedAt": "2026-09-27T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-27-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-27",
+      "timeSlot": "After dinner",
+      "value": 182,
+      "createdAt": "2026-09-27T12:00:00.000Z",
+      "updatedAt": "2026-09-27T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-28-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-28",
+      "timeSlot": "Morning (fasting)",
+      "value": 124,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-28T12:00:00.000Z",
+      "updatedAt": "2026-09-28T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-28-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-28",
+      "timeSlot": "After breakfast",
+      "value": 191,
+      "createdAt": "2026-09-28T12:00:00.000Z",
+      "updatedAt": "2026-09-28T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-28-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-28",
+      "timeSlot": "After lunch",
+      "value": 182,
+      "notes": "After lunch",
+      "createdAt": "2026-09-28T12:00:00.000Z",
+      "updatedAt": "2026-09-28T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-29-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-29",
+      "timeSlot": "Morning (fasting)",
+      "value": 109,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-29T12:00:00.000Z",
+      "updatedAt": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-29-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-29",
+      "timeSlot": "After breakfast",
+      "value": 144,
+      "createdAt": "2026-09-29T12:00:00.000Z",
+      "updatedAt": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-29-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-29",
+      "timeSlot": "After lunch",
+      "value": 151,
+      "notes": "After lunch",
+      "createdAt": "2026-09-29T12:00:00.000Z",
+      "updatedAt": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-29-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-29",
+      "timeSlot": "After dinner",
+      "value": 160,
+      "createdAt": "2026-09-29T12:00:00.000Z",
+      "updatedAt": "2026-09-29T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-30-0",
+      "userId": "demo-patient-001",
+      "date": "2026-09-30",
+      "timeSlot": "Morning (fasting)",
+      "value": 107,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-09-30T12:00:00.000Z",
+      "updatedAt": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-30-1",
+      "userId": "demo-patient-001",
+      "date": "2026-09-30",
+      "timeSlot": "After breakfast",
+      "value": 182,
+      "createdAt": "2026-09-30T12:00:00.000Z",
+      "updatedAt": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-30-2",
+      "userId": "demo-patient-001",
+      "date": "2026-09-30",
+      "timeSlot": "After lunch",
+      "value": 204,
+      "notes": "After lunch",
+      "createdAt": "2026-09-30T12:00:00.000Z",
+      "updatedAt": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-09-30-3",
+      "userId": "demo-patient-001",
+      "date": "2026-09-30",
+      "timeSlot": "After dinner",
+      "value": 170,
+      "createdAt": "2026-09-30T12:00:00.000Z",
+      "updatedAt": "2026-09-30T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-01-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-01",
+      "timeSlot": "Morning (fasting)",
+      "value": 124,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-01T12:00:00.000Z",
+      "updatedAt": "2026-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-01-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-01",
+      "timeSlot": "After breakfast",
+      "value": 164,
+      "createdAt": "2026-10-01T12:00:00.000Z",
+      "updatedAt": "2026-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-01-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-01",
+      "timeSlot": "After lunch",
+      "value": 150,
+      "notes": "After lunch",
+      "createdAt": "2026-10-01T12:00:00.000Z",
+      "updatedAt": "2026-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-01-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-01",
+      "timeSlot": "After dinner",
+      "value": 145,
+      "createdAt": "2026-10-01T12:00:00.000Z",
+      "updatedAt": "2026-10-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-02-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-02",
+      "timeSlot": "Morning (fasting)",
+      "value": 101,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-02T12:00:00.000Z",
+      "updatedAt": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-02-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-02",
+      "timeSlot": "After breakfast",
+      "value": 166,
+      "createdAt": "2026-10-02T12:00:00.000Z",
+      "updatedAt": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-02-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-02",
+      "timeSlot": "After lunch",
+      "value": 199,
+      "notes": "After lunch",
+      "createdAt": "2026-10-02T12:00:00.000Z",
+      "updatedAt": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-02-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-02",
+      "timeSlot": "After dinner",
+      "value": 187,
+      "createdAt": "2026-10-02T12:00:00.000Z",
+      "updatedAt": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-03-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-03",
+      "timeSlot": "Morning (fasting)",
+      "value": 130,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-03T12:00:00.000Z",
+      "updatedAt": "2026-10-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-03-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-03",
+      "timeSlot": "After breakfast",
+      "value": 192,
+      "createdAt": "2026-10-03T12:00:00.000Z",
+      "updatedAt": "2026-10-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-03-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-03",
+      "timeSlot": "After lunch",
+      "value": 177,
+      "notes": "After lunch",
+      "createdAt": "2026-10-03T12:00:00.000Z",
+      "updatedAt": "2026-10-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-03-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-03",
+      "timeSlot": "After dinner",
+      "value": 141,
+      "createdAt": "2026-10-03T12:00:00.000Z",
+      "updatedAt": "2026-10-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-04-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-04",
+      "timeSlot": "Morning (fasting)",
+      "value": 107,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-04T12:00:00.000Z",
+      "updatedAt": "2026-10-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-04-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-04",
+      "timeSlot": "After breakfast",
+      "value": 148,
+      "createdAt": "2026-10-04T12:00:00.000Z",
+      "updatedAt": "2026-10-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-04-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-04",
+      "timeSlot": "After lunch",
+      "value": 163,
+      "notes": "After lunch",
+      "createdAt": "2026-10-04T12:00:00.000Z",
+      "updatedAt": "2026-10-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-05-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-05",
+      "timeSlot": "Morning (fasting)",
+      "value": 115,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-05T12:00:00.000Z",
+      "updatedAt": "2026-10-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-05-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-05",
+      "timeSlot": "After breakfast",
+      "value": 193,
+      "createdAt": "2026-10-05T12:00:00.000Z",
+      "updatedAt": "2026-10-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-05-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-05",
+      "timeSlot": "After lunch",
+      "value": 208,
+      "notes": "After lunch",
+      "createdAt": "2026-10-05T12:00:00.000Z",
+      "updatedAt": "2026-10-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-05-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-05",
+      "timeSlot": "After dinner",
+      "value": 168,
+      "createdAt": "2026-10-05T12:00:00.000Z",
+      "updatedAt": "2026-10-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-06-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-06",
+      "timeSlot": "Morning (fasting)",
+      "value": 125,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-06T12:00:00.000Z",
+      "updatedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-06-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-06",
+      "timeSlot": "After breakfast",
+      "value": 165,
+      "createdAt": "2026-10-06T12:00:00.000Z",
+      "updatedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-06-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-06",
+      "timeSlot": "After lunch",
+      "value": 151,
+      "notes": "After lunch",
+      "createdAt": "2026-10-06T12:00:00.000Z",
+      "updatedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-06-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-06",
+      "timeSlot": "After dinner",
+      "value": 144,
+      "createdAt": "2026-10-06T12:00:00.000Z",
+      "updatedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-07-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-07",
+      "timeSlot": "Morning (fasting)",
+      "value": 101,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-07T12:00:00.000Z",
+      "updatedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-07-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-07",
+      "timeSlot": "After breakfast",
+      "value": 164,
+      "createdAt": "2026-10-07T12:00:00.000Z",
+      "updatedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-07-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-07",
+      "timeSlot": "After lunch",
+      "value": 198,
+      "notes": "After lunch",
+      "createdAt": "2026-10-07T12:00:00.000Z",
+      "updatedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-07-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-07",
+      "timeSlot": "After dinner",
+      "value": 187,
+      "createdAt": "2026-10-07T12:00:00.000Z",
+      "updatedAt": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-08-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-08",
+      "timeSlot": "Morning (fasting)",
+      "value": 129,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-08T12:00:00.000Z",
+      "updatedAt": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-08-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-08",
+      "timeSlot": "After breakfast",
+      "value": 193,
+      "createdAt": "2026-10-08T12:00:00.000Z",
+      "updatedAt": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-08-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-08",
+      "timeSlot": "After lunch",
+      "value": 179,
+      "notes": "After lunch",
+      "createdAt": "2026-10-08T12:00:00.000Z",
+      "updatedAt": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-09-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-09",
+      "timeSlot": "Morning (fasting)",
+      "value": 108,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-09T12:00:00.000Z",
+      "updatedAt": "2026-10-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-09-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-09",
+      "timeSlot": "After breakfast",
+      "value": 148,
+      "createdAt": "2026-10-09T12:00:00.000Z",
+      "updatedAt": "2026-10-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-09-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-09",
+      "timeSlot": "After lunch",
+      "value": 162,
+      "notes": "After lunch",
+      "createdAt": "2026-10-09T12:00:00.000Z",
+      "updatedAt": "2026-10-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-09-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-09",
+      "timeSlot": "After dinner",
+      "value": 171,
+      "createdAt": "2026-10-09T12:00:00.000Z",
+      "updatedAt": "2026-10-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-10-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-10",
+      "timeSlot": "Morning (fasting)",
+      "value": 114,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-10T12:00:00.000Z",
+      "updatedAt": "2026-10-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-10-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-10",
+      "timeSlot": "After breakfast",
+      "value": 192,
+      "createdAt": "2026-10-10T12:00:00.000Z",
+      "updatedAt": "2026-10-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-10-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-10",
+      "timeSlot": "After lunch",
+      "value": 208,
+      "notes": "After lunch",
+      "createdAt": "2026-10-10T12:00:00.000Z",
+      "updatedAt": "2026-10-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-10-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-10",
+      "timeSlot": "After dinner",
+      "value": 169,
+      "createdAt": "2026-10-10T12:00:00.000Z",
+      "updatedAt": "2026-10-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-11-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-11",
+      "timeSlot": "Morning (fasting)",
+      "value": 126,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-11T12:00:00.000Z",
+      "updatedAt": "2026-10-11T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-11-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-11",
+      "timeSlot": "After breakfast",
+      "value": 167,
+      "createdAt": "2026-10-11T12:00:00.000Z",
+      "updatedAt": "2026-10-11T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-11-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-11",
+      "timeSlot": "After lunch",
+      "value": 151,
+      "notes": "After lunch",
+      "createdAt": "2026-10-11T12:00:00.000Z",
+      "updatedAt": "2026-10-11T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-11-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-11",
+      "timeSlot": "After dinner",
+      "value": 143,
+      "createdAt": "2026-10-11T12:00:00.000Z",
+      "updatedAt": "2026-10-11T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-12-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-12",
+      "timeSlot": "Morning (fasting)",
+      "value": 101,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-12T12:00:00.000Z",
+      "updatedAt": "2026-10-12T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-12-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-12",
+      "timeSlot": "After breakfast",
+      "value": 162,
+      "createdAt": "2026-10-12T12:00:00.000Z",
+      "updatedAt": "2026-10-12T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-12-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-12",
+      "timeSlot": "After lunch",
+      "value": 196,
+      "notes": "After lunch",
+      "createdAt": "2026-10-12T12:00:00.000Z",
+      "updatedAt": "2026-10-12T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-13-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-13",
+      "timeSlot": "Morning (fasting)",
+      "value": 129,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-13T12:00:00.000Z",
+      "updatedAt": "2026-10-13T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-13-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-13",
+      "timeSlot": "After breakfast",
+      "value": 194,
+      "createdAt": "2026-10-13T12:00:00.000Z",
+      "updatedAt": "2026-10-13T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-13-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-13",
+      "timeSlot": "After lunch",
+      "value": 181,
+      "notes": "After lunch",
+      "createdAt": "2026-10-13T12:00:00.000Z",
+      "updatedAt": "2026-10-13T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-13-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-13",
+      "timeSlot": "After dinner",
+      "value": 142,
+      "createdAt": "2026-10-13T12:00:00.000Z",
+      "updatedAt": "2026-10-13T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-14-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-14",
+      "timeSlot": "Morning (fasting)",
+      "value": 109,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-14T12:00:00.000Z",
+      "updatedAt": "2026-10-14T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-14-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-14",
+      "timeSlot": "After breakfast",
+      "value": 148,
+      "createdAt": "2026-10-14T12:00:00.000Z",
+      "updatedAt": "2026-10-14T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-14-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-14",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "notes": "After lunch",
+      "createdAt": "2026-10-14T12:00:00.000Z",
+      "updatedAt": "2026-10-14T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-14-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-14",
+      "timeSlot": "After dinner",
+      "value": 170,
+      "createdAt": "2026-10-14T12:00:00.000Z",
+      "updatedAt": "2026-10-14T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-15-0",
+      "userId": "demo-patient-001",
+      "date": "2026-10-15",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-10-15T07:30:00.000Z",
+      "updatedAt": "2026-10-15T07:30:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-15-1",
+      "userId": "demo-patient-001",
+      "date": "2026-10-15",
+      "timeSlot": "After breakfast",
+      "value": 145,
+      "notes": "2 hrs after oatmeal & berries",
+      "createdAt": "2026-10-15T10:00:00.000Z",
+      "updatedAt": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-15-2",
+      "userId": "demo-patient-001",
+      "date": "2026-10-15",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "notes": "2 hrs after rice & dal",
+      "createdAt": "2026-10-15T14:30:00.000Z",
+      "updatedAt": "2026-10-15T14:30:00.000Z"
+    },
+    {
+      "id": "reading-2026-10-15-3",
+      "userId": "demo-patient-001",
+      "date": "2026-10-15",
+      "timeSlot": "After dinner",
+      "value": 130,
+      "notes": "2 hrs after roti & vegetable soup",
+      "createdAt": "2026-10-15T21:00:00.000Z",
+      "updatedAt": "2026-10-15T21:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-01-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-01",
+      "timeSlot": "Morning (fasting)",
+      "value": 120,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-01T12:00:00.000Z",
+      "updatedAt": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-01-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-01",
+      "timeSlot": "After breakfast",
+      "value": 162,
+      "createdAt": "2026-11-01T12:00:00.000Z",
+      "updatedAt": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-01-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-01",
+      "timeSlot": "After lunch",
+      "value": 148,
+      "notes": "After lunch",
+      "createdAt": "2026-11-01T12:00:00.000Z",
+      "updatedAt": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-01-3",
+      "userId": "demo-patient-001",
+      "date": "2026-11-01",
+      "timeSlot": "After dinner",
+      "value": 143,
+      "createdAt": "2026-11-01T12:00:00.000Z",
+      "updatedAt": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-02-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-02",
+      "timeSlot": "Morning (fasting)",
+      "value": 97,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-02T12:00:00.000Z",
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-02-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-02",
+      "timeSlot": "After breakfast",
+      "value": 164,
+      "createdAt": "2026-11-02T12:00:00.000Z",
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-02-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-02",
+      "timeSlot": "After lunch",
+      "value": 197,
+      "notes": "After lunch",
+      "createdAt": "2026-11-02T12:00:00.000Z",
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-02-3",
+      "userId": "demo-patient-001",
+      "date": "2026-11-02",
+      "timeSlot": "After dinner",
+      "value": 185,
+      "createdAt": "2026-11-02T12:00:00.000Z",
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-03-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-03",
+      "timeSlot": "Morning (fasting)",
+      "value": 126,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-03T12:00:00.000Z",
+      "updatedAt": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-03-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-03",
+      "timeSlot": "After breakfast",
+      "value": 190,
+      "createdAt": "2026-11-03T12:00:00.000Z",
+      "updatedAt": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-03-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-03",
+      "timeSlot": "After lunch",
+      "value": 175,
+      "notes": "After lunch",
+      "createdAt": "2026-11-03T12:00:00.000Z",
+      "updatedAt": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-03-3",
+      "userId": "demo-patient-001",
+      "date": "2026-11-03",
+      "timeSlot": "After dinner",
+      "value": 139,
+      "createdAt": "2026-11-03T12:00:00.000Z",
+      "updatedAt": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-04-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-04",
+      "timeSlot": "Morning (fasting)",
+      "value": 103,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-04T12:00:00.000Z",
+      "updatedAt": "2026-11-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-04-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-04",
+      "timeSlot": "After breakfast",
+      "value": 146,
+      "createdAt": "2026-11-04T12:00:00.000Z",
+      "updatedAt": "2026-11-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-04-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-04",
+      "timeSlot": "After lunch",
+      "value": 161,
+      "notes": "After lunch",
+      "createdAt": "2026-11-04T12:00:00.000Z",
+      "updatedAt": "2026-11-04T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-05-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-05",
+      "timeSlot": "Morning (fasting)",
+      "value": 111,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-05T12:00:00.000Z",
+      "updatedAt": "2026-11-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-05-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-05",
+      "timeSlot": "After breakfast",
+      "value": 191,
+      "createdAt": "2026-11-05T12:00:00.000Z",
+      "updatedAt": "2026-11-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-05-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-05",
+      "timeSlot": "After lunch",
+      "value": 206,
+      "notes": "After lunch",
+      "createdAt": "2026-11-05T12:00:00.000Z",
+      "updatedAt": "2026-11-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-05-3",
+      "userId": "demo-patient-001",
+      "date": "2026-11-05",
+      "timeSlot": "After dinner",
+      "value": 166,
+      "createdAt": "2026-11-05T12:00:00.000Z",
+      "updatedAt": "2026-11-05T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-06-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-06",
+      "timeSlot": "Morning (fasting)",
+      "value": 121,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-06T12:00:00.000Z",
+      "updatedAt": "2026-11-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-06-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-06",
+      "timeSlot": "After breakfast",
+      "value": 163,
+      "createdAt": "2026-11-06T12:00:00.000Z",
+      "updatedAt": "2026-11-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-06-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-06",
+      "timeSlot": "After lunch",
+      "value": 149,
+      "notes": "After lunch",
+      "createdAt": "2026-11-06T12:00:00.000Z",
+      "updatedAt": "2026-11-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-06-3",
+      "userId": "demo-patient-001",
+      "date": "2026-11-06",
+      "timeSlot": "After dinner",
+      "value": 142,
+      "createdAt": "2026-11-06T12:00:00.000Z",
+      "updatedAt": "2026-11-06T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-07-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-07",
+      "timeSlot": "Morning (fasting)",
+      "value": 97,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-07T12:00:00.000Z",
+      "updatedAt": "2026-11-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-07-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-07",
+      "timeSlot": "After breakfast",
+      "value": 162,
+      "createdAt": "2026-11-07T12:00:00.000Z",
+      "updatedAt": "2026-11-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-07-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-07",
+      "timeSlot": "After lunch",
+      "value": 196,
+      "notes": "After lunch",
+      "createdAt": "2026-11-07T12:00:00.000Z",
+      "updatedAt": "2026-11-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-07-3",
+      "userId": "demo-patient-001",
+      "date": "2026-11-07",
+      "timeSlot": "After dinner",
+      "value": 185,
+      "createdAt": "2026-11-07T12:00:00.000Z",
+      "updatedAt": "2026-11-07T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-08-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-08",
+      "timeSlot": "Morning (fasting)",
+      "value": 125,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-08T12:00:00.000Z",
+      "updatedAt": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-08-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-08",
+      "timeSlot": "After breakfast",
+      "value": 191,
+      "createdAt": "2026-11-08T12:00:00.000Z",
+      "updatedAt": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-08-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-08",
+      "timeSlot": "After lunch",
+      "value": 177,
+      "notes": "After lunch",
+      "createdAt": "2026-11-08T12:00:00.000Z",
+      "updatedAt": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-09-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-09",
+      "timeSlot": "Morning (fasting)",
+      "value": 104,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-09-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-09",
+      "timeSlot": "After breakfast",
+      "value": 146,
+      "createdAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-09-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-09",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "notes": "After lunch",
+      "createdAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-09-3",
+      "userId": "demo-patient-001",
+      "date": "2026-11-09",
+      "timeSlot": "After dinner",
+      "value": 169,
+      "createdAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-10-0",
+      "userId": "demo-patient-001",
+      "date": "2026-11-10",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "notes": "Fasting 10 hrs",
+      "createdAt": "2026-11-10T12:00:00.000Z",
+      "updatedAt": "2026-11-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-10-1",
+      "userId": "demo-patient-001",
+      "date": "2026-11-10",
+      "timeSlot": "After breakfast",
+      "value": 190,
+      "createdAt": "2026-11-10T12:00:00.000Z",
+      "updatedAt": "2026-11-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-10-2",
+      "userId": "demo-patient-001",
+      "date": "2026-11-10",
+      "timeSlot": "After lunch",
+      "value": 206,
+      "notes": "After lunch",
+      "createdAt": "2026-11-10T12:00:00.000Z",
+      "updatedAt": "2026-11-10T12:00:00.000Z"
+    },
+    {
+      "id": "reading-2026-11-10-3",
+      "userId": "demo-patient-001",
+      "date": "2026-11-10",
+      "timeSlot": "After dinner",
+      "value": 167,
+      "createdAt": "2026-11-10T12:00:00.000Z",
+      "updatedAt": "2026-11-10T12:00:00.000Z"
+    },
+    {
+      "id": "read_1794364560324_vlqch",
+      "userId": "test-user-1794364560323",
+      "date": "2026-10-15",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "createdAt": "2026-11-11T02:36:00.324Z",
+      "updatedAt": "2026-11-11T02:36:00.324Z"
+    },
+    {
+      "id": "read_1794364560326_bk797",
+      "userId": "test-user-1794364560323",
+      "date": "2026-10-15",
+      "timeSlot": "After breakfast",
+      "value": 145,
+      "createdAt": "2026-11-11T02:36:00.326Z",
+      "updatedAt": "2026-11-11T02:36:00.326Z"
+    },
+    {
+      "id": "read_1794364560327_j4y2w",
+      "userId": "test-user-1794364560323",
+      "date": "2026-10-15",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "createdAt": "2026-11-11T02:36:00.327Z",
+      "updatedAt": "2026-11-11T02:36:00.327Z"
+    },
+    {
+      "id": "read_1794364560328_i9odm",
+      "userId": "test-user-1794364560323",
+      "date": "2026-10-15",
+      "timeSlot": "After dinner",
+      "value": 130,
+      "createdAt": "2026-11-11T02:36:00.328Z",
+      "updatedAt": "2026-11-11T02:36:00.328Z"
+    },
+    {
+      "id": "read_1794373089712_61ztc",
+      "userId": "test-user-1794373089711",
+      "date": "2026-10-15",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "createdAt": "2026-11-11T04:58:09.713Z",
+      "updatedAt": "2026-11-11T04:58:09.713Z"
+    },
+    {
+      "id": "read_1794373089714_m9za2",
+      "userId": "test-user-1794373089711",
+      "date": "2026-10-15",
+      "timeSlot": "After breakfast",
+      "value": 145,
+      "createdAt": "2026-11-11T04:58:09.714Z",
+      "updatedAt": "2026-11-11T04:58:09.714Z"
+    },
+    {
+      "id": "read_1794373089715_jj896",
+      "userId": "test-user-1794373089711",
+      "date": "2026-10-15",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "createdAt": "2026-11-11T04:58:09.715Z",
+      "updatedAt": "2026-11-11T04:58:09.715Z"
+    },
+    {
+      "id": "read_1794373089716_rb0f2",
+      "userId": "test-user-1794373089711",
+      "date": "2026-10-15",
+      "timeSlot": "After dinner",
+      "value": 130,
+      "createdAt": "2026-11-11T04:58:09.716Z",
+      "updatedAt": "2026-11-11T04:58:09.716Z"
+    },
+    {
+      "id": "read_1794374563732_pkohr",
+      "userId": "test-user-1794374563731",
+      "date": "2026-10-15",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "createdAt": "2026-11-11T05:22:43.732Z",
+      "updatedAt": "2026-11-11T05:22:43.732Z"
+    },
+    {
+      "id": "read_1794374563734_ng0vm",
+      "userId": "test-user-1794374563731",
+      "date": "2026-10-15",
+      "timeSlot": "After breakfast",
+      "value": 145,
+      "createdAt": "2026-11-11T05:22:43.734Z",
+      "updatedAt": "2026-11-11T05:22:43.734Z"
+    },
+    {
+      "id": "read_1794374563734_59r0t",
+      "userId": "test-user-1794374563731",
+      "date": "2026-10-15",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "createdAt": "2026-11-11T05:22:43.734Z",
+      "updatedAt": "2026-11-11T05:22:43.734Z"
+    },
+    {
+      "id": "read_1794374563735_brf4a",
+      "userId": "test-user-1794374563731",
+      "date": "2026-10-15",
+      "timeSlot": "After dinner",
+      "value": 130,
+      "createdAt": "2026-11-11T05:22:43.735Z",
+      "updatedAt": "2026-11-11T05:22:43.735Z"
+    },
+    {
+      "id": "read_1794386246986_ndq64",
+      "userId": "test-user-1794386246984",
+      "date": "2026-10-15",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "createdAt": "2026-11-11T08:37:26.986Z",
+      "updatedAt": "2026-11-11T08:37:26.986Z"
+    },
+    {
+      "id": "read_1794386246987_y1p6u",
+      "userId": "test-user-1794386246984",
+      "date": "2026-10-15",
+      "timeSlot": "After breakfast",
+      "value": 145,
+      "createdAt": "2026-11-11T08:37:26.987Z",
+      "updatedAt": "2026-11-11T08:37:26.987Z"
+    },
+    {
+      "id": "read_1794386246988_798d4",
+      "userId": "test-user-1794386246984",
+      "date": "2026-10-15",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "createdAt": "2026-11-11T08:37:26.988Z",
+      "updatedAt": "2026-11-11T08:37:26.988Z"
+    },
+    {
+      "id": "read_1794386246990_vl4az",
+      "userId": "test-user-1794386246984",
+      "date": "2026-10-15",
+      "timeSlot": "After dinner",
+      "value": 130,
+      "createdAt": "2026-11-11T08:37:26.990Z",
+      "updatedAt": "2026-11-11T08:37:26.990Z"
+    },
+    {
+      "id": "read_1794388379022_qw3eh",
+      "userId": "test-user-1794388379021",
+      "date": "2026-10-15",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "createdAt": "2026-11-11T09:12:59.022Z",
+      "updatedAt": "2026-11-11T09:12:59.023Z"
+    },
+    {
+      "id": "read_1794388379024_fuyhq",
+      "userId": "test-user-1794388379021",
+      "date": "2026-10-15",
+      "timeSlot": "After breakfast",
+      "value": 145,
+      "createdAt": "2026-11-11T09:12:59.024Z",
+      "updatedAt": "2026-11-11T09:12:59.024Z"
+    },
+    {
+      "id": "read_1794388379025_s3rpc",
+      "userId": "test-user-1794388379021",
+      "date": "2026-10-15",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "createdAt": "2026-11-11T09:12:59.025Z",
+      "updatedAt": "2026-11-11T09:12:59.025Z"
+    },
+    {
+      "id": "read_1794388379025_mpzxw",
+      "userId": "test-user-1794388379021",
+      "date": "2026-10-15",
+      "timeSlot": "After dinner",
+      "value": 130,
+      "createdAt": "2026-11-11T09:12:59.025Z",
+      "updatedAt": "2026-11-11T09:12:59.025Z"
+    },
+    {
+      "id": "read_1794389959583_2hsot",
+      "userId": "test-user-1794389959582",
+      "date": "2026-10-15",
+      "timeSlot": "Morning (fasting)",
+      "value": 110,
+      "createdAt": "2026-11-11T09:39:19.583Z",
+      "updatedAt": "2026-11-11T09:39:19.584Z"
+    },
+    {
+      "id": "read_1794389959585_9tg43",
+      "userId": "test-user-1794389959582",
+      "date": "2026-10-15",
+      "timeSlot": "After breakfast",
+      "value": 145,
+      "createdAt": "2026-11-11T09:39:19.585Z",
+      "updatedAt": "2026-11-11T09:39:19.585Z"
+    },
+    {
+      "id": "read_1794389959587_rof3l",
+      "userId": "test-user-1794389959582",
+      "date": "2026-10-15",
+      "timeSlot": "After lunch",
+      "value": 160,
+      "createdAt": "2026-11-11T09:39:19.587Z",
+      "updatedAt": "2026-11-11T09:39:19.587Z"
+    },
+    {
+      "id": "read_1794389959587_69ece",
+      "userId": "test-user-1794389959582",
+      "date": "2026-10-15",
+      "timeSlot": "After dinner",
+      "value": 130,
+      "createdAt": "2026-11-11T09:39:19.587Z",
+      "updatedAt": "2026-11-11T09:39:19.587Z"
+    }
+  ]
+}
